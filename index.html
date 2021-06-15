@@ -5,29 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="asserts/css/style.css">
 </head>
 <body>
-    <section>
-        <h1> Lucas Lins </h1>
-        <img class="foto-perfil" src="asserts/imagens/img.jpg.jpg"> 
-    </section>
-    <section>
-        <h2> informações Pessoais</h2>
-        <ul>
-            <li>Masculino.</li>
-            <li>20 Anos</li>
-            <li>Cientista da Computação</li>
-        </ul>
-    </section>
+    <div class="container">
+        <div class= "row mb-5">
+            <div class= "col-12 text-center">
+            <section>
+                <h1> Lucas Lins </h1>
+                <img class="foto-perfil" src="asserts/imagens/img.jpg.jpg"> 
+            </section>
+            </div>
+        </div>
+        <div class= "row">
+            <div class= "col-md-6 text-center mb-3 mb-md-0">
 
-    <section>
-        <h2>Informações de contato</h2>
-        <ul>
-            <li>Celular = (11) 95094-1695</li>
-            <li>E-mail = lukkauss@gmail.com</li>
-            <li>Endereço. Rua Marechal Dutra, 342 , centro, Crisopolis-Ba</li>
-        </ul>
-    </section>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                      Informações Pessoais
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">20 Anos</li>
+                      <li class="list-group-item">Masculino</li>
+                      <li class="list-group-item">Cientista da Computação</li>
+                    </ul>
+                  </div>
+
+            </div>
+            <div class= "col-md-6 text-center">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                      Informações de Contato
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Celular: (11) 95094-1695</li>
+                      <li class="list-group-item">E-mail: lukkauss@gmail.com</li>
+                      <li class="list-group-item">Endereço: Rua Marechal Dutra, 342</li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+    </div>
 </body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </html>
